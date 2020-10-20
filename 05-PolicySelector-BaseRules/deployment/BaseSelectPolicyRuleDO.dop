@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="BaseSelectPolicyRuleDO" usingRuleflow="true" ruleflowName="00-BaseRuleFlow" targetRuleProjectName="05-PolicySelector-BaseRules">
+  <name>BaseSelectPolicyRuleDO</name>
+  <uuid>ff9649bd-647a-4304-904b-8e2772b67ed1</uuid>
+  <referencedVariables variableName="selectPolicyRequest" variableSetName="InputVars">
+    <variableSet href="../../08-PolicySelector-BOM/rules/InputVars.var#5ba646cd-1db8-46d9-99f6-eaeca22a01a9"/>
+  </referencedVariables>
+  <referencedVariables variableName="selectPolicyResponse" variableSetName="OutputVars" direction="OUT">
+    <variableSet href="../../08-PolicySelector-BOM/rules/OutputVars.var#f64aa0ec-3a5e-47ed-8a95-ceb7f83013fb"/>
+  </referencedVariables>
+  <ruleflow href="../rules/com/swisschain/policy/selector/base/00-BaseRuleFlow.rfl#1b0aea7a-6bfc-4e22-8564-637630d32799"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="BaseSelectPolicyRuleDO_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../05-PolicySelector-BaseRules#6d51e8a5-be69-4b14-8763-a54eeb33c010"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

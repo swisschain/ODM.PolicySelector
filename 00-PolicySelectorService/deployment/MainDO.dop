@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="MainDO" usingRuleflow="true" ruleflowName="00-MainRuleFlow" targetRuleProjectName="00-PolicySelectorService">
+  <name>MainDO</name>
+  <uuid>a8dadb67-2081-4fad-a1fb-d65db7d74bc6</uuid>
+  <referencedVariables variableName="selectPolicyRequest" variableSetName="InputVars">
+    <variableSet href="../../08-PolicySelector-BOM/rules/InputVars.var#5ba646cd-1db8-46d9-99f6-eaeca22a01a9"/>
+  </referencedVariables>
+  <referencedVariables variableName="selectPolicyResponse" variableSetName="OutputVars" direction="OUT">
+    <variableSet href="../../08-PolicySelector-BOM/rules/OutputVars.var#f64aa0ec-3a5e-47ed-8a95-ceb7f83013fb"/>
+  </referencedVariables>
+  <ruleflow href="../rules/00-MainRuleFlow.rfl#b4fa1d8c-d275-409d-8325-c11a0146494f"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="MainDO_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../00-PolicySelectorService#37c3b230-f70a-46d0-9d96-580604726ff3"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

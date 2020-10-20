@@ -1,0 +1,51 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/08-PolicySelector-BOM//10-PolicySelector-XOM"
+property uuid "73de6c44-2be9-4584-949a-49bb3d5ef787"
+package com.swisschain.policy.selector;
+
+
+public final class NetworkType
+        extends java.lang.Enum
+{
+    domain {static PRIVATE, static TEST, static PUBLIC}
+    public static final readonly com.swisschain.policy.selector.NetworkType PRIVATE;
+    public static final readonly com.swisschain.policy.selector.NetworkType PUBLIC;
+    public static final readonly com.swisschain.policy.selector.NetworkType TEST;
+    public static com.swisschain.policy.selector.NetworkType valueOf(string arg);
+    public static com.swisschain.policy.selector.NetworkType[] values();
+}
+
+public class SelectPolicyRequest
+{
+    public string accountId;
+    public string address;
+    public string blockchainId;
+    public string brokerId;
+    public com.swisschain.policy.selector.NetworkType networkType;
+    public string tenantId;
+    public SelectPolicyRequest();
+}
+
+public class SelectPolicyResponse
+{
+    public string policy;
+    public string policyService;
+    public string policyServiceVersion;
+    public string policyVersion;
+    public com.swisschain.policy.selector.SelectPolicyResult result;
+    public SelectPolicyResponse();
+    public static com.swisschain.policy.selector.SelectPolicyResponse create(com.swisschain.policy.selector.SelectPolicyResult arg1, string arg2, string arg3, string arg4, string arg5);
+    public string toString();
+}
+
+public final class SelectPolicyResult
+        extends java.lang.Enum
+{
+    domain {static Found, static NotFound}
+    public static final readonly com.swisschain.policy.selector.SelectPolicyResult Found;
+    public static final readonly com.swisschain.policy.selector.SelectPolicyResult NotFound;
+    public static com.swisschain.policy.selector.SelectPolicyResult valueOf(string arg);
+    public static com.swisschain.policy.selector.SelectPolicyResult[] values();
+}
+

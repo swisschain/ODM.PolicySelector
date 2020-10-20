@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<teamservers>
+<teamserver>
+<target dataSource="" login="odmAdmin" url="http://158.177.182.90:9060/decisioncenter"/>
+<entry baseType="DecisionOperation" checksum="3473005596" projectName="05-PolicySelector-BaseRules" qualifiedName="BaseSelectPolicyRuleDO" sourceCS="F519AC743B27F53C04C2D99FBDA6BB01" targetCS="3473005596" type="DecisionOperation" uuid="ff9649bd-647a-4304-904b-8e2772b67ed1"/>
+<entry baseType="DecisionTable" checksum="1576341195" projectName="05-PolicySelector-BaseRules" qualifiedName="com.swisschain.policy.selector.base.01-DecisionTable" sourceCS="F6067F58BA09BC55C0EB3E7425F72C56" targetCS="1576341195" type="DecisionTable" uuid="3dd060fc-cea9-485b-a57b-7d3fb7b1586c"/>
+<entry baseType="Resource" checksum="2384109471" projectName="05-PolicySelector-BaseRules" qualifiedName="xom-libraries/10-PolicySelector-XOM.zip" sourceCS="B88E1A3381D41C68B20780386A637A46" targetCS="2384109471" type="Resource" uuid="xom-libraries/10-PolicySelector-XOM.zip"/>
+<entry baseType="Ruleflow" checksum="2193527917" projectName="05-PolicySelector-BaseRules" qualifiedName="com.swisschain.policy.selector.base.00-BaseRuleFlow" sourceCS="35B790D86FD6B610D3E843ACBE550B36" targetCS="2193527917" type="Ruleflow" uuid="1b0aea7a-6bfc-4e22-8564-637630d32799"/>
+<entry baseType="RulePackageInfo" checksum="1808335771" projectName="05-PolicySelector-BaseRules" qualifiedName="com" sourceCS="5E331EC46EC3CECBB30F6DB71F5531E3" targetCS="1808335771" type="RulePackageInfo" uuid="098b6a7e-e91c-453b-aefe-8fd6a64d6aeb"/>
+<entry baseType="RulePackageInfo" checksum="1451729097" projectName="05-PolicySelector-BaseRules" qualifiedName="com.swisschain" sourceCS="F06D8F5DD64AA1679BE7695448627CDE" targetCS="1451729097" type="RulePackageInfo" uuid="20925de3-e1e1-47b1-b126-d72872e036b1"/>
+<entry baseType="RulePackageInfo" checksum="3999845952" projectName="05-PolicySelector-BaseRules" qualifiedName="com.swisschain.policy" sourceCS="B9C694CB78E2F56BE1E9B990C5E486CB" targetCS="3999845952" type="RulePackageInfo" uuid="8dc36c60-2986-433a-90f5-0ab4ffc24d9e"/>
+<entry baseType="RulePackageInfo" checksum="2049138393" projectName="05-PolicySelector-BaseRules" qualifiedName="com.swisschain.policy.selector" sourceCS="4BE98DC150534189F11DC1D112613FFA" targetCS="2049138393" type="RulePackageInfo" uuid="02adfbb4-d24c-46e9-b218-5b5695056526"/>
+<entry baseType="RulePackageInfo" checksum="433015673" projectName="05-PolicySelector-BaseRules" qualifiedName="com.swisschain.policy.selector.base" sourceCS="5DFF40A0969CE921F7B1E77B25E55F93" targetCS="433015673" type="RulePackageInfo" uuid="8cc469d5-9541-4309-8e0e-25e09a010c6a"/>
+<entry baseType="RuleProjectInfo" checksum="492977793" projectName="05-PolicySelector-BaseRules" qualifiedName="05-PolicySelector-BaseRules" sourceCS="5B58EDCA4D5C4E3FB816DFF4087F4EE5" targetCS="492977793" type="RuleProjectInfo" uuid="6d51e8a5-be69-4b14-8763-a54eeb33c010"/>
+</teamserver>
+</teamservers>

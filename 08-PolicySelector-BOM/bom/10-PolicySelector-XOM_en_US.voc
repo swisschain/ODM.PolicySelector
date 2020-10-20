@@ -1,0 +1,41 @@
+# Vocabulary Properties
+uuid = 30a4d29e-1a00-4913-a2ca-1926a5d130a4
+
+# com.swisschain.policy.selector.NetworkType
+com.swisschain.policy.selector.NetworkType#concept.label = network type
+com.swisschain.policy.selector.NetworkType.PRIVATE#instance.label = PRIVATE
+com.swisschain.policy.selector.NetworkType.PUBLIC#instance.label = PUBLIC
+com.swisschain.policy.selector.NetworkType.TEST#instance.label = TEST
+com.swisschain.policy.selector.NetworkType.valueOf(java.lang.String)#phrase.navigation = network type.valueOf({0})
+com.swisschain.policy.selector.NetworkType.values()#phrase.navigation = network type.values()
+
+# com.swisschain.policy.selector.SelectPolicyRequest
+com.swisschain.policy.selector.SelectPolicyRequest#concept.label = select policy request
+com.swisschain.policy.selector.SelectPolicyRequest.accountId#phrase.action = set the account id of {this} to {account id}
+com.swisschain.policy.selector.SelectPolicyRequest.accountId#phrase.navigation = {account id} of {this}
+com.swisschain.policy.selector.SelectPolicyRequest.address#phrase.action = set the address of {this} to {address}
+com.swisschain.policy.selector.SelectPolicyRequest.address#phrase.navigation = {address} of {this}
+com.swisschain.policy.selector.SelectPolicyRequest.blockchainId#phrase.action = set the blockchain id of {this} to {blockchain id}
+com.swisschain.policy.selector.SelectPolicyRequest.blockchainId#phrase.navigation = {blockchain id} of {this}
+com.swisschain.policy.selector.SelectPolicyRequest.brokerId#phrase.action = set the broker id of {this} to {broker id}
+com.swisschain.policy.selector.SelectPolicyRequest.brokerId#phrase.navigation = {broker id} of {this}
+com.swisschain.policy.selector.SelectPolicyRequest.networkType#phrase.action = set the network type of {this} to {network type}
+com.swisschain.policy.selector.SelectPolicyRequest.networkType#phrase.navigation = {network type} of {this}
+com.swisschain.policy.selector.SelectPolicyRequest.tenantId#phrase.action = set the tenant id of {this} to {tenant id}
+com.swisschain.policy.selector.SelectPolicyRequest.tenantId#phrase.navigation = {tenant id} of {this}
+
+# com.swisschain.policy.selector.SelectPolicyResponse
+com.swisschain.policy.selector.SelectPolicyResponse#concept.label = select policy response
+com.swisschain.policy.selector.SelectPolicyResponse.create(com.swisschain.policy.selector.SelectPolicyResult,java.lang.String,java.lang.String,java.lang.String,java.lang.String)#phrase.navigation = create select policy response with result {0}, policy service {1}, policy service version {2}, policy name {3}, policy version {4}
+com.swisschain.policy.selector.SelectPolicyResponse.policy#phrase.action = set the policy of {this} to {policy}
+com.swisschain.policy.selector.SelectPolicyResponse.policy#phrase.navigation = {policy} of {this}
+com.swisschain.policy.selector.SelectPolicyResponse.result#phrase.action = set the result of {this} to {result}
+com.swisschain.policy.selector.SelectPolicyResponse.result#phrase.navigation = {result} of {this}
+com.swisschain.policy.selector.SelectPolicyResponse.toString()#phrase.navigation = create printable string of {this}
+
+# com.swisschain.policy.selector.SelectPolicyResult
+com.swisschain.policy.selector.SelectPolicyResult#concept.label = select policy result
+com.swisschain.policy.selector.SelectPolicyResult.Found#instance.label = Found
+com.swisschain.policy.selector.SelectPolicyResult.NotFound#instance.label = NotFound
+com.swisschain.policy.selector.SelectPolicyResult.valueOf(java.lang.String)#phrase.navigation = select policy result.valueOf({0})
+com.swisschain.policy.selector.SelectPolicyResult.values()#phrase.navigation = select policy result.values()

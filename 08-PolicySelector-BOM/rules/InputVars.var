@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>InputVars</name>
+  <uuid>5ba646cd-1db8-46d9-99f6-eaeca22a01a9</uuid>
+  <variables name="selectPolicyRequest" type="com.swisschain.policy.selector.SelectPolicyRequest" initialValue="" verbalization="the select policy request"/>
+</ilog.rules.studio.model.base:VariableSet>
