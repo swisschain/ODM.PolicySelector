@@ -2,6 +2,7 @@
 <com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="PolicySelectorService" managingXom="true">
   <name>MainRuleDC</name>
   <uuid>03cf680c-fb60-4641-83c1-770e1729fa1d</uuid>
+  <targets label="IBM HP Server Local"/>
   <operations operationName="MainDO">
     <operation href="MainDO.dop#a8dadb67-2081-4fad-a1fb-d65db7d74bc6"/>
     <properties key="ruleset.version">

@@ -3,7 +3,7 @@
 <teamserver>
 <target dataSource="" login="odmAdmin" url="http://158.177.182.90:9060/decisioncenter"/>
 <entry baseType="DecisionOperation" checksum="1546572113" projectName="00-PolicySelectorService" qualifiedName="MainDO" sourceCS="4B235BCE5111B08A630F212D318EBB63" targetCS="1546572113" type="DecisionOperation" uuid="a8dadb67-2081-4fad-a1fb-d65db7d74bc6"/>
-<entry baseType="DeploymentConfiguration" checksum="1421082836" projectName="00-PolicySelectorService" qualifiedName="MainRuleDC" sourceCS="31AF89EE32BD790E8C142156E04BDA97" targetCS="1421082836" type="DeploymentConfiguration" uuid="03cf680c-fb60-4641-83c1-770e1729fa1d"/>
+<entry baseType="DeploymentConfiguration" checksum="3154234007" projectName="00-PolicySelectorService" qualifiedName="MainRuleDC" sourceCS="020FF9A94348042E81ABD21DC0066320" targetCS="3154234007" type="DeploymentConfiguration" uuid="03cf680c-fb60-4641-83c1-770e1729fa1d"/>
 <entry baseType="Ruleflow" checksum="617925878" projectName="00-PolicySelectorService" qualifiedName="00-MainRuleFlow" sourceCS="1D1CD425E5055E8E253C3C414AE6091E" targetCS="617925878" type="Ruleflow" uuid="b4fa1d8c-d275-409d-8325-c11a0146494f"/>
 <entry baseType="RuleProjectInfo" checksum="1843853276" projectName="00-PolicySelectorService" qualifiedName="00-PolicySelectorService" sourceCS="56D3AF0F7B5FF888ECD48F6A587C0832" targetCS="1843853276" type="RuleProjectInfo" uuid="37c3b230-f70a-46d0-9d96-580604726ff3"/>
 </teamserver>
