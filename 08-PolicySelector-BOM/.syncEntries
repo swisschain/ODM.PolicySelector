@@ -3,11 +3,11 @@
 <teamserver>
 <target dataSource="" login="odmAdmin" url="http://158.177.182.90:9060/decisioncenter"/>
 <entry baseType="B2XMapping" checksum="1203655560" projectName="08-PolicySelector-BOM" qualifiedName="10-PolicySelector-XOM" sourceCS="E4331E8EE299A96849BF937AE2763423" targetCS="1203655560" type="B2XMapping" uuid="20a7e93b-dcb8-4d06-82da-67f3812086d2"/>
-<entry baseType="BusinessObjectModel" checksum="1203655560" projectName="08-PolicySelector-BOM" qualifiedName="10-PolicySelector-XOM" sourceCS="D60DA2EC7E960D14B064D38B78C9BC28" targetCS="1203655560" type="BusinessObjectModel" uuid="73de6c44-2be9-4584-949a-49bb3d5ef787"/>
-<entry baseType="Resource" checksum="2384109471" projectName="08-PolicySelector-BOM" qualifiedName="xom-libraries/10-PolicySelector-XOM.zip" sourceCS="B88E1A3381D41C68B20780386A637A46" targetCS="2384109471" type="Resource" uuid="xom-libraries/10-PolicySelector-XOM.zip"/>
+<entry baseType="BusinessObjectModel" checksum="1352021832" projectName="08-PolicySelector-BOM" qualifiedName="10-PolicySelector-XOM" sourceCS="8D68FE4EB219C0905070B28CF499A8FE" targetCS="1352021832" type="BusinessObjectModel" uuid="73de6c44-2be9-4584-949a-49bb3d5ef787"/>
+<entry baseType="Resource" checksum="559812056" projectName="08-PolicySelector-BOM" qualifiedName="xom-libraries/10-PolicySelector-XOM.zip" sourceCS="9102C758E433961BF044CE9E8286D6D8" targetCS="559812056" type="Resource" uuid="xom-libraries/10-PolicySelector-XOM.zip"/>
 <entry baseType="RuleProjectInfo" checksum="1023983197" projectName="08-PolicySelector-BOM" qualifiedName="08-PolicySelector-BOM" sourceCS="4C0AA5F72E642ED1FF8D81D169F30CD8" targetCS="1023983197" type="RuleProjectInfo" uuid="4ab5d5af-de26-43f0-acba-88a78c5657a9"/>
 <entry baseType="VariableSet" checksum="934501877" projectName="08-PolicySelector-BOM" qualifiedName="InputVars" sourceCS="595D495BCD7B9F92491A8C07BAC5249C" targetCS="934501877" type="VariableSet" uuid="5ba646cd-1db8-46d9-99f6-eaeca22a01a9"/>
 <entry baseType="VariableSet" checksum="969782466" projectName="08-PolicySelector-BOM" qualifiedName="OutputVars" sourceCS="0339A807B8A42049B081BE2758832C84" targetCS="969782466" type="VariableSet" uuid="f64aa0ec-3a5e-47ed-8a95-ceb7f83013fb"/>
-<entry baseType="Vocabulary" checksum="1203655560" projectName="08-PolicySelector-BOM" qualifiedName="10-PolicySelector-XOM_en_US" sourceCS="22AED4B8A91E5B00CE59571924DA332D" targetCS="1203655560" type="Vocabulary" uuid="30a4d29e-1a00-4913-a2ca-1926a5d130a4"/>
+<entry baseType="Vocabulary" checksum="1352021832" projectName="08-PolicySelector-BOM" qualifiedName="10-PolicySelector-XOM_en_US" sourceCS="FFEA571BE890E4278A24DB1965BEBA8E" targetCS="1352021832" type="Vocabulary" uuid="30a4d29e-1a00-4913-a2ca-1926a5d130a4"/>
 </teamserver>
 </teamservers>

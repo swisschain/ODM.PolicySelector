@@ -1,11 +1,14 @@
 # Vocabulary Properties
+com.swisschain.policy.selector.NetworkType.PRIVATE#instance.label = PRIVATE
+com.swisschain.policy.selector.NetworkType.PUBLIC#instance.label = PUBLIC
+com.swisschain.policy.selector.NetworkType.TEST#instance.label = TEST
 uuid = 30a4d29e-1a00-4913-a2ca-1926a5d130a4
 
 # com.swisschain.policy.selector.NetworkType
 com.swisschain.policy.selector.NetworkType#concept.label = network type
-com.swisschain.policy.selector.NetworkType.PRIVATE#instance.label = PRIVATE
-com.swisschain.policy.selector.NetworkType.PUBLIC#instance.label = PUBLIC
-com.swisschain.policy.selector.NetworkType.TEST#instance.label = TEST
+com.swisschain.policy.selector.NetworkType.Private#instance.label = Private
+com.swisschain.policy.selector.NetworkType.Public#instance.label = Public
+com.swisschain.policy.selector.NetworkType.Test#instance.label = Test
 com.swisschain.policy.selector.NetworkType.valueOf(java.lang.String)#phrase.navigation = network type.valueOf({0})
 com.swisschain.policy.selector.NetworkType.values()#phrase.navigation = network type.values()
 

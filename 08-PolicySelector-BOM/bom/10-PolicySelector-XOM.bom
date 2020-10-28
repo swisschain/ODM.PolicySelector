@@ -8,10 +8,10 @@ package com.swisschain.policy.selector;
 public final class NetworkType
         extends java.lang.Enum
 {
-    domain {static PRIVATE, static TEST, static PUBLIC}
-    public static final readonly com.swisschain.policy.selector.NetworkType PRIVATE;
-    public static final readonly com.swisschain.policy.selector.NetworkType PUBLIC;
-    public static final readonly com.swisschain.policy.selector.NetworkType TEST;
+    domain {static Private, static Test, static Public}
+    public static final readonly com.swisschain.policy.selector.NetworkType Private;
+    public static final readonly com.swisschain.policy.selector.NetworkType Public;
+    public static final readonly com.swisschain.policy.selector.NetworkType Test;
     public static com.swisschain.policy.selector.NetworkType valueOf(string arg);
     public static com.swisschain.policy.selector.NetworkType[] values();
 }
